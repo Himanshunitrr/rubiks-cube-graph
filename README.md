@@ -4,6 +4,8 @@ An interactive 3D Rubik’s Cube paired with a live Cayley-graph visualization.
 Each face turn applies a group generator, changes the cube, and traces the
 corresponding walk through state space.
 
+https://github.com/user-attachments/assets/e7748e22-1e17-4a9d-aead-4a4420a85d8d
+
 ## Features
 
 - draggable Three.js Rubik’s Cube with clickable faces
