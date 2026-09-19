@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cube-theory-lab
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start -- --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.20.0
